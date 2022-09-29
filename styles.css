@@ -1,0 +1,49 @@
+/*---------------------------nav---------------------------*/
+.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.35rem;
+}
+nav{
+    background-color: #334257!important;}
+    nav ul li a {
+        color: aliceblue !important;
+        font-size: 18px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+.navbar-brand img{
+    transform: scale(0.7);
+}
+    
+li a:hover {
+    background-color: #EDEDED;
+    color: #000033 !important;
+    transition: .2s;
+ }
+ @media (min-width: 768px){
+    #navbarNav ul{
+        justify-content: end !important;
+    }
+ }
+ /*------------------------tarjetas------------------------*/
+.row{
+    justify-content: center;
+  
+}
+@media (max-width: 576px) {
+    .col-xs-6 {
+      max-width: 16rem;
+      min-width: 16rem;
+    }}
+.card:hover {
+    /*--------*Efecto tarjeta*--------*/
+    box-shadow: 5px 5px 20px rgba(32, 45, 100, 0.5);
+    transform: translateY(-1%);
+    transition: .3s;
+}
+    /*-------Internacion Domiciliaria-------*/
+.servi img{
+    height: 9.375rem;
+}
