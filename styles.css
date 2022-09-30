@@ -1,6 +1,6 @@
 *{
     list-style: none;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 /*---------------------------nav---------------------------*/
 .contenedor{
@@ -47,9 +47,20 @@ li a:hover {
     transform: translateY(-1%);
     transition: .3s;
 }
+.card h2{
+    color: black;
+    
+}
     /*-------Internacion Domiciliaria-------*/
 .servi img{
     height: 9.375rem;
+}
+.card{
+        --bs-card-spacer-y: 0 ;
+        
+}
+.card h2{
+    font-family: 'Mulish', sans-serif;
 }
 
 /*--------------------footer*--------------------*/
@@ -57,6 +68,7 @@ li a:hover {
     width: 100%;
     background-color: #334257!important;
     margin-top: 20px;
+    padding-top: 20px;
 
 }
 .pie-pagina ul li a {
@@ -70,4 +82,12 @@ li a:hover {
 }
 .pie-pagina ul{
     text-align: center !important;
+}
+.fa-instagram{
+    color: #C13584;
+}
+/*------------servicios------------*/
+.servimg img{
+   
+   
 }
