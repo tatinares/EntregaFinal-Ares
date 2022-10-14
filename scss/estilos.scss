@@ -1,3 +1,5 @@
+@import '_servicios.scss';
+@import '_sobre-nosotros.scss';
 $main-color:#334257;
 *{
     list-style: none;
@@ -53,9 +55,7 @@ li a:hover {
     transition: .3s;
 }
 /*---------------Internacion Domiciliaria---------------*/
-.servi img{
-    height: 9.375rem;
-}
+
 .card{
         --bs-card-spacer-y: 0 ;
         h2{
