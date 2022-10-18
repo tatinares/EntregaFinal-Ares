@@ -1,38 +1,49 @@
-/* line 1, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/_servicios.scss */
-.servi img {
-  height: 9.375rem;
+.servimg figure img {
+  height: 12 rem;
+  border-radius: 100px;
 }
 
-/* line 5, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/_servicios.scss */
 section h2 {
   color: #548CA8;
 }
 
-/* line 1, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/_sobre-nosotros.scss */
 .snimg {
   margin: 0 !important;
 }
 
-/* line 4, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
+.banner {
+  background-color: #334257;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.banner i {
+  font-size: 80px;
+  color: #548CA8;
+  padding-top: 10px;
+}
+
+.banner h3 {
+  color: white;
+  color: #3b7cb5;
+}
+
 * {
   list-style: none;
   text-decoration: none !important;
 }
 
 /*---------------------------nav---------------------------*/
-/* line 10, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .contenedor {
   margin-left: auto;
   margin-right: auto;
   padding: 0.35rem;
 }
 
-/* line 15, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 nav {
   background-color: #334257 !important;
 }
 
-/* line 17, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 nav ul li a {
   color: aliceblue !important;
   font-size: 18px;
@@ -41,40 +52,43 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-/* line 26, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .navbar-brand img {
   transform: scale(0.7);
 }
 
-/* line 30, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
-li a:hover {
+ul li a {
+  color: aliceblue !important;
+  font-size: 13px;
+  padding: 10px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+ul li a:hover {
   background-color: #EDEDED;
   color: #000033 !important;
   transition: .2s;
 }
 
 @media (min-width: 768px) {
-  /* line 36, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
   #navbarNav ul {
     justify-content: end !important;
   }
 }
 
 /*------------------------tarjetas------------------------*/
-/* line 41, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .row {
   justify-content: center;
 }
 
 @media (max-width: 576px) {
-  /* line 46, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
   .col-xs-6 {
     max-width: 16rem;
     min-width: 16rem;
   }
 }
 
-/* line 51, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .card:hover {
   /*--------*Efecto tarjeta*--------*/
   box-shadow: 5px 5px 20px rgba(32, 45, 100, 0.5);
@@ -83,24 +97,20 @@ li a:hover {
 }
 
 /*---------------Internacion Domiciliaria---------------*/
-/* line 59, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .card {
   --bs-card-spacer-y: 0 ;
 }
 
-/* line 61, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .card h2 {
   font-family: 'Mulish', sans-serif;
   color: black;
 }
 
 /*--------------------footer*--------------------*/
-/* line 71, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .fa-instagram {
   color: #C13584;
 }
 
-/* line 74, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .pie-pagina {
   width: 100%;
   background-color: #334257 !important;
@@ -108,20 +118,7 @@ li a:hover {
   padding-top: 20px;
 }
 
-/* line 80, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
-.pie-pagina ul li a {
-  color: aliceblue !important;
-  font-size: 136x;
-  padding: 10px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-  margin-top: 10px;
-}
-
-/* line 89, ../../../../../Users/joaquinares/Desktop/CODERHOUSE/pre entrega 2 clone/PreEntrega2-Ares/scss/estilos.scss */
 .pie-pagina ul {
   text-align: center !important;
   padding: 0 !important;
 }
-
-/*# sourceMappingURL=estilos.css.map */

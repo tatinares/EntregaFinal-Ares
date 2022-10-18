@@ -1,6 +1,9 @@
+$main-color:#334257;
+$secondary-color: #548CA8; 
+
 @import '_servicios.scss';
 @import '_sobre-nosotros.scss';
-$main-color:#334257;
+@import '_contacto.scss';
 *{
     list-style: none;
     text-decoration: none!important;
@@ -26,12 +29,23 @@ nav{
 .navbar-brand img{
     transform: scale(0.7);
 }
+ul li {
+    a{  color: aliceblue !important;
+        font-size: 13px;
+        padding: 10px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    a:hover {
+        background-color: #EDEDED;
+        color: #000033 !important;
+        transition: .2s;
+            
+    }
+}
     
-li a:hover {
-    background-color: #EDEDED;
-    color: #000033 !important;
-    transition: .2s;
- }
+
  @media (min-width: 768px){
     #navbarNav ul{
         justify-content: end !important;
@@ -77,15 +91,7 @@ li a:hover {
     margin-top: 20px;
     padding-top: 20px;
     
-    ul li a {
-        color: aliceblue !important;
-        font-size: 136x;
-            padding: 10px 13px;
-            border-radius: 3px;
-            text-transform: uppercase;
-            margin-top: 10px;
-            
-    }
+   
     ul{
         text-align: center !important;
         padding: 0 !important;
