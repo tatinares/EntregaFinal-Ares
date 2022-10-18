@@ -1,6 +1,30 @@
-.servimg figure img {
-  height: 12 rem;
+.map {
+  height: 400px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.serv {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+.servi img {
+  height: 9.375rem;
+}
+
+.servimg img {
   border-radius: 100px;
+  height: 15rem;
 }
 
 section h2 {
@@ -13,8 +37,10 @@ section h2 {
 
 .banner {
   background-color: #334257;
-  margin-right: 10px;
+  margin: 10px;
   border-radius: 20px;
+  max-width: 300px;
+  min-width: 180px;
 }
 
 .banner i {
@@ -26,6 +52,15 @@ section h2 {
 .banner h3 {
   color: white;
   color: #3b7cb5;
+}
+
+.btn {
+  background-color: #548CA8;
+}
+
+.btn:hover {
+  background-color: black !important;
+  color: white !important;
 }
 
 * {
@@ -116,6 +151,8 @@ ul li a:hover {
   background-color: #334257 !important;
   margin-top: 20px;
   padding-top: 20px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .pie-pagina ul {

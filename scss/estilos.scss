@@ -1,6 +1,6 @@
 $main-color:#334257;
 $secondary-color: #548CA8; 
-
+@import '_como-encontrarnos.scss';
 @import '_servicios.scss';
 @import '_sobre-nosotros.scss';
 @import '_contacto.scss';
@@ -90,6 +90,8 @@ ul li {
     background-color: $main-color!important;
     margin-top: 20px;
     padding-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
     
    
     ul{
