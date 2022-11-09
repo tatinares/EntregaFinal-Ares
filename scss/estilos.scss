@@ -40,7 +40,7 @@ ul li {
     a:hover {
         background-color: #EDEDED;
         color: #000033 !important;
-        transition: .2s;
+        transition: 1s;
             
     }
 }
@@ -56,11 +56,22 @@ ul li {
     justify-content: center;
   
 }
-@media (max-width: 576px) {
-    .col-xs-6 {
-      max-width: 16rem;
-      min-width: 16rem;
-    }}
+@media (max-width: 767px) {
+    .tarjicono{
+        width: 80%!important;
+    }
+    .servi{
+        width: 90%!important;
+    }
+   
+
+}
+@media (max-width: 992px){
+    .boton{
+        margin-top: 22px;
+    }
+}
+
 
 .card:hover {
     /*--------*Efecto tarjeta*--------*/
@@ -68,22 +79,55 @@ ul li {
     transform: translateY(-1%);
     transition: .3s;
 }
+
 /*---------------Internacion Domiciliaria---------------*/
 
 .card{
         --bs-card-spacer-y: 0 ;
+        padding-bottom: 10px;
+        border: none;
         h2{
             font-family: 'Mulish', sans-serif;
             color: black;
         }
+       
         
+}
+.servicios{
+    img{
+        
+        padding: 3.125rem;
+    }
+}
+.card-img{
+   
+        -webkit-filter: grayscale(1); /* Webkit */
+        filter: gray; /* IE6-9 */
+        
+        
+       
+}
+.card-img:hover{
+    -webkit-filter:none; /* Webkit */
+    filter:none; /* IE6-9 */
+    filter: none; /* W3C */
+    transition: 1200ms;
 }
 
 
 /*--------------------footer*--------------------*/
 
 .fa-instagram{
-    color: #C13584;
+    color: white;
+}
+.fa-facebook{
+    color: white!important;
+}
+.fa-twitter{
+    color: white!important;
+}
+.fa-youtube{
+    color:white!important;
 }
 .pie-pagina{
     width: 100%;
@@ -93,7 +137,9 @@ ul li {
     margin-right: 0;
     margin-left: 0;
     
-   
+    h2{
+        color: rgb(176, 174, 174);
+    }
     ul{
         text-align: center !important;
         padding: 0 !important;
