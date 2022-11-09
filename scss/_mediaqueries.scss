@@ -1,0 +1,26 @@
+@media (min-width: 768px){
+    #navbarNav ul{
+        justify-content: end !important;
+    }
+    .carrouselphone{
+        display: none;
+    }
+   
+ }
+ @media (max-width: 767px) {
+    .tarjicono{
+        width: 80%!important;
+    }
+    .servi{
+        width: 90%!important;
+    }
+    .carouselcom{
+        display: none;
+    }
+   
+}
+@media (max-width: 992px){
+    .boton{
+        margin-top: 22px;
+    }
+}

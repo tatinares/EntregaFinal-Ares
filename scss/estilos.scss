@@ -4,6 +4,7 @@ $secondary-color: #548CA8;
 @import '_servicios.scss';
 @import '_sobre-nosotros.scss';
 @import '_contacto.scss';
+@import '_mediaqueries';
 *{
     list-style: none;
     text-decoration: none!important;
@@ -46,31 +47,13 @@ ul li {
 }
     
 
- @media (min-width: 768px){
-    #navbarNav ul{
-        justify-content: end !important;
-    }
- }
+
  /*------------------------tarjetas------------------------*/
 .row{
     justify-content: center;
   
 }
-@media (max-width: 767px) {
-    .tarjicono{
-        width: 80%!important;
-    }
-    .servi{
-        width: 90%!important;
-    }
-   
 
-}
-@media (max-width: 992px){
-    .boton{
-        margin-top: 22px;
-    }
-}
 
 
 .card:hover {
