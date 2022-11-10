@@ -26,7 +26,7 @@
     transition: 0.15s ease;
 }
 .cuadros{
-    animation-duration: 1500ms;
+    animation-duration: 2500ms;
     animation-name: agrandar;
 }
 /*--------------------------Efecto--------------------------*/
@@ -36,7 +36,7 @@
         height: 200%;
     }
     to{
-        width: 100%;
-        height: 100%;
+        width: 67%;
+        height: 67%;
     }
 }
